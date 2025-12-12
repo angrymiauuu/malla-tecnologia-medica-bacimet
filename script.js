@@ -52,9 +52,8 @@ const prerequisitos = {
     'fisiologia', 'bioetica', 'bioquimica', 'infectologia', 'ingles2', 'tic'
   ],
 
-  // ─────────────────────────────
+
   //  SEMESTRE 7 (ARREGLADO)
-  // ─────────────────────────────
   'educacion_salud': ['salud_pub2'],
   'gestion_salud': ['salud_pub2'],
   'biomolecular': ['micro2'],
@@ -68,7 +67,7 @@ const prerequisitos = {
   ],
 
   // ─────────────────────────────
-  //  SEMESTRE 8 (ARREGLADO)
+  //  SEMESTRE 8 
   // ─────────────────────────────
   'investigacion': ['salud_pub2'],
   'aseguramiento': ['gestion_salud'],
@@ -82,7 +81,6 @@ const prerequisitos = {
     'histoembriologia', 'fisica', 'quimica_organica', 'ingles1', 'habilidades',
     'fisiologia', 'bioetica', 'bioquimica', 'infectologia', 'ingles2', 'tic'
   ],
-  'pensamiento': ['investigacion'],
 
   // ─────────────────────────────
   //  SEMESTRE 9
