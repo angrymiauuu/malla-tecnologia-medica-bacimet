@@ -1,4 +1,4 @@
-//  Prerrequisitos de cada ramo (usa los IDs del HTML)
+//  Prerrequisitos de cada ramo
 const prerequisitos = {
   // Semestre 2
   'histoembriologia': ['anatomia', 'biocel'],
@@ -58,6 +58,9 @@ const prerequisitos = {
     'biocel', 'lab_biocel', 'quimica_general', 'anatomia', 'intro_tm', 'algebra',
     'histoembriologia', 'fisica', 'quimica_organica', 'ingles1', 'habilidades',
     'fisiologia', 'bioetica', 'bioquimica', 'infectologia', 'ingles2', 'tic'
+    ],
+  'educacion_salud': ['salud_pub2'],
+  'gestion_salud': ['salud_pub2'],
   ],
 
   // Semestre 8
@@ -70,6 +73,9 @@ const prerequisitos = {
     'biocel', 'lab_biocel', 'quimica_general', 'anatomia', 'intro_tm', 'algebra',
     'histoembriologia', 'fisica', 'quimica_organica', 'ingles1', 'habilidades',
     'fisiologia', 'bioetica', 'bioquimica', 'infectologia', 'ingles2', 'tic'
+    ],
+  'aseguramiento': ['gestion_salud'],
+  'investigacion': ['salud_pub2'],
   ],
 
   // Semestre 9: TODOS los anteriores
@@ -108,7 +114,7 @@ const prerequisitos = {
   ]
 };
 
-// 🔑 Guardar y cargar progreso
+// 
 function obtenerAprobados() {
   const data = localStorage.getItem('mallaAprobados');
   return data ? JSON.parse(data) : [];
