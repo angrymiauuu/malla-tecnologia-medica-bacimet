@@ -1,4 +1,4 @@
-// 🎓 Prerrequisitos de cada ramo (usa los IDs del HTML)
+//  Prerrequisitos de cada ramo (usa los IDs del HTML)
 const prerequisitos = {
   // Semestre 2
   'histoembriologia': ['anatomia', 'biocel'],
@@ -28,12 +28,12 @@ const prerequisitos = {
   'ingles3': ['ingles2'],
 
   // Semestre 5
-  'procedimientos': [],
-  'salud_pub1': [],
+  'procedimientos': ['farmaco'],
+  'salud_pub1': ['fisiopato'],
   'micro1': [
     'biocel', 'lab_biocel', 'quimica_general', 'anatomia', 'intro_tm', 'algebra',
     'histoembriologia', 'fisica', 'quimica_organica', 'ingles1', 'habilidades',
-    'fisiologia', 'bioetica', 'bioquimica', 'infectologia', 'ingles2', 'tic'
+    'fisiologia', 'bioetica', 'bioquimica', 'infectologia', 'ingles2', 'tic', 'farmaco'
   ],
   'hemato1': [
     'biocel', 'lab_biocel', 'quimica_general', 'anatomia', 'intro_tm', 'algebra',
@@ -43,7 +43,7 @@ const prerequisitos = {
   'ingles4': ['ingles3'],
 
   // Semestre 6
-  'salud_pub2': ['salud_pub1'],
+  'salud_pub2': ['salud_pub1', 'procedimientos'],
   'micro2': ['micro1'],
   'hemato2': ['hemato1'],
   'bioq_clinica1': [
