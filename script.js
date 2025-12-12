@@ -52,32 +52,38 @@ const prerequisitos = {
     'fisiologia', 'bioetica', 'bioquimica', 'infectologia', 'ingles2', 'tic'
   ],
 
-  // Semestre 7
-  'bioq_clinica2': ['bioq_clinica1'],
-  'integrador1': [
-    'biocel', 'lab_biocel', 'quimica_general', 'anatomia', 'intro_tm', 'algebra',
-    'histoembriologia', 'fisica', 'quimica_organica', 'ingles1', 'habilidades',
-    'fisiologia', 'bioetica', 'bioquimica', 'infectologia', 'ingles2', 'tic'
-  'educacion_salud': ['salud_pub2'],
-    ],
-  'educacion_salud': ['salud_pub2'],
-  'gestion_salud': ['salud_pub2'],
-  ],
+// Semestre 7
+'bioq_clinica2': ['bioq_clinica1'],
 
-  // Semestre 8
-  'med_transfusional': [
-    'biocel', 'lab_biocel', 'quimica_general', 'anatomia', 'intro_tm', 'algebra',
-    'histoembriologia', 'fisica', 'quimica_organica', 'ingles1', 'habilidades',
-    'fisiologia', 'bioetica', 'bioquimica', 'infectologia', 'ingles2', 'tic'
-  ],
-  'diag_molecular': [
-    'biocel', 'lab_biocel', 'quimica_general', 'anatomia', 'intro_tm', 'algebra',
-    'histoembriologia', 'fisica', 'quimica_organica', 'ingles1', 'habilidades',
-    'fisiologia', 'bioetica', 'bioquimica', 'infectologia', 'ingles2', 'tic'
-    ],
-  'aseguramiento': ['gestion_salud'],
-  'investigacion': ['salud_pub2'],
-  ],
+'integrador1': [
+  'biocel', 'lab_biocel', 'quimica_general', 'anatomia', 'intro_tm', 'algebra',
+  'histoembriologia', 'fisica', 'quimica_organica', 'ingles1', 'habilidades',
+  'fisiologia', 'bioetica', 'bioquimica', 'infectologia', 'ingles2', 'tic'
+],
+
+'educacion_salud': ['salud_pub2'],
+'gestion_salud': ['salud_pub2'],
+'biomolecular': ['micro2'],
+'inmunohemo': ['hemato2'],
+
+
+// Semestre 8
+'med_transfusional': [
+  'biocel', 'lab_biocel', 'quimica_general', 'anatomia', 'intro_tm', 'algebra',
+  'histoembriologia', 'fisica', 'quimica_organica', 'ingles1', 'habilidades',
+  'fisiologia', 'bioetica', 'bioquimica', 'infectologia', 'ingles2', 'tic'
+],
+
+'diag_molecular': [
+  'biocel', 'lab_biocel', 'quimica_general', 'anatomia', 'intro_tm', 'algebra',
+  'histoembriologia', 'fisica', 'quimica_organica', 'ingles1', 'habilidades',
+  'fisiologia', 'bioetica', 'bioquimica', 'infectologia', 'ingles2', 'tic'
+],
+
+'aseguramiento': ['gestion_salud'],
+'investigacion': ['salud_pub2'],
+'pensamiento': ['investigacion'],
+
 
   // Semestre 9: TODOS los anteriores
   'responsabilidad': [
