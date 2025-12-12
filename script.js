@@ -58,6 +58,7 @@ const prerequisitos = {
     'biocel', 'lab_biocel', 'quimica_general', 'anatomia', 'intro_tm', 'algebra',
     'histoembriologia', 'fisica', 'quimica_organica', 'ingles1', 'habilidades',
     'fisiologia', 'bioetica', 'bioquimica', 'infectologia', 'ingles2', 'tic'
+  'educacion_salud': ['salud_pub2'],
     ],
   'educacion_salud': ['salud_pub2'],
   'gestion_salud': ['salud_pub2'],
@@ -160,7 +161,7 @@ function aprobar(e) {
   actualizarDesbloqueos();
 }
 
-// 🚀 Al cargar
+// 
 window.addEventListener('DOMContentLoaded', () => {
   const todosRamos = document.querySelectorAll('.ramo');
   const aprobados = obtenerAprobados();
