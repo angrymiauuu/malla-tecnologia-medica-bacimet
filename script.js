@@ -70,6 +70,7 @@ const prerequisitos = {
   //  SEMESTRE 8 
   // ─────────────────────────────
   'investigacion': ['salud_pub2'],
+  'pensamiento': [],
   'aseguramiento': ['gestion_salud'],
   'med_transfusional': [
     'biocel', 'lab_biocel', 'quimica_general', 'anatomia', 'intro_tm', 'algebra',
