@@ -52,76 +52,66 @@ const prerequisitos = {
     'fisiologia', 'bioetica', 'bioquimica', 'infectologia', 'ingles2', 'tic'
   ],
 
-// Semestre 7
-'bioq_clinica2': ['bioq_clinica1'],
+  // ─────────────────────────────
+  //  SEMESTRE 7 (ARREGLADO)
+  // ─────────────────────────────
+  'educacion_salud': ['salud_pub2'],
+  'gestion_salud': ['salud_pub2'],
+  'biomolecular': ['micro2'],
+  'inmunohemo': ['hemato2'],
+  'bioq_clinica2': ['bioq_clinica1'],
 
-'integrador1': [
-  'biocel', 'lab_biocel', 'quimica_general', 'anatomia', 'intro_tm', 'algebra',
-  'histoembriologia', 'fisica', 'quimica_organica', 'ingles1', 'habilidades',
-  'fisiologia', 'bioetica', 'bioquimica', 'infectologia', 'ingles2', 'tic'
-],
+  'integrador1': [
+    'biocel', 'lab_biocel', 'quimica_general', 'anatomia', 'intro_tm', 'algebra',
+    'histoembriologia', 'fisica', 'quimica_organica', 'ingles1', 'habilidades',
+    'fisiologia', 'bioetica', 'bioquimica', 'infectologia', 'ingles2', 'tic'
+  ],
 
-'educacion_salud': ['salud_pub2'],
-'gestion_salud': ['salud_pub2'],
-'biomolecular': ['micro2'],
-'inmunohemo': ['hemato2'],
+  // ─────────────────────────────
+  //  SEMESTRE 8 (ARREGLADO)
+  // ─────────────────────────────
+  'investigacion': ['salud_pub2'],
+  'aseguramiento': ['gestion_salud'],
+  'med_transfusional': [
+    'biocel', 'lab_biocel', 'quimica_general', 'anatomia', 'intro_tm', 'algebra',
+    'histoembriologia', 'fisica', 'quimica_organica', 'ingles1', 'habilidades',
+    'fisiologia', 'bioetica', 'bioquimica', 'infectologia', 'ingles2', 'tic'
+  ],
+  'diag_molecular': [
+    'biocel', 'lab_biocel', 'quimica_general', 'anatomia', 'intro_tm', 'algebra',
+    'histoembriologia', 'fisica', 'quimica_organica', 'ingles1', 'habilidades',
+    'fisiologia', 'bioetica', 'bioquimica', 'infectologia', 'ingles2', 'tic'
+  ],
+  'pensamiento': ['investigacion'],
 
-
-// Semestre 8
-'med_transfusional': [
-  'biocel', 'lab_biocel', 'quimica_general', 'anatomia', 'intro_tm', 'algebra',
-  'histoembriologia', 'fisica', 'quimica_organica', 'ingles1', 'habilidades',
-  'fisiologia', 'bioetica', 'bioquimica', 'infectologia', 'ingles2', 'tic'
-],
-
-'diag_molecular': [
-  'biocel', 'lab_biocel', 'quimica_general', 'anatomia', 'intro_tm', 'algebra',
-  'histoembriologia', 'fisica', 'quimica_organica', 'ingles1', 'habilidades',
-  'fisiologia', 'bioetica', 'bioquimica', 'infectologia', 'ingles2', 'tic'
-],
-
-'aseguramiento': ['gestion_salud'],
-'investigacion': ['salud_pub2'],
-'pensamiento': ['investigacion'],
-
-
-  // Semestre 9: TODOS los anteriores
+  // ─────────────────────────────
+  //  SEMESTRE 9
+  // ─────────────────────────────
   'responsabilidad': [
-    'biocel', 'lab_biocel', 'quimica_general', 'anatomia', 'intro_tm', 'algebra',
-    'histoembriologia', 'fisica', 'quimica_organica', 'ingles1', 'habilidades',
-    'fisiologia', 'bioetica', 'bioquimica', 'infectologia', 'ingles2', 'tic',
-    'fisiopato', 'farmaco', 'parasito', 'inmuno_diag', 'ingles3',
-    'procedimientos', 'salud_pub1', 'micro1', 'hemato1', 'ingles4',
-    'salud_pub2', 'micro2', 'hemato2', 'bioq_clinica1', 'educacion_salud',
-    'gestion_salud', 'biomolecular', 'inmunohemo', 'bioq_clinica2', 'integrador1',
-    'investigacion', 'aseguramiento', 'med_transfusional', 'diag_molecular', 'pensamiento'
-  ],
-  'seminario': [
-    'biocel', 'lab_biocel', 'quimica_general', 'anatomia', 'intro_tm', 'algebra',
-    'histoembriologia', 'fisica', 'quimica_organica', 'ingles1', 'habilidades',
-    'fisiologia', 'bioetica', 'bioquimica', 'infectologia', 'ingles2', 'tic',
-    'fisiopato', 'farmaco', 'parasito', 'inmuno_diag', 'ingles3',
-    'procedimientos', 'salud_pub1', 'micro1', 'hemato1', 'ingles4',
-    'salud_pub2', 'micro2', 'hemato2', 'bioq_clinica1', 'educacion_salud',
-    'gestion_salud', 'biomolecular', 'inmunohemo', 'bioq_clinica2', 'integrador1',
-    'investigacion', 'aseguramiento', 'med_transfusional', 'diag_molecular', 'pensamiento'
+    'educacion_salud', 'gestion_salud', 'biomolecular', 'inmunohemo', 'bioq_clinica2',
+    'integrador1', 'med_transfusional', 'diag_molecular', 'pensamiento',
+    'salud_pub2', 'micro2', 'hemato2', 'bioq_clinica1'
   ],
 
-  // Semestre 10: TODOS los anteriores
+  'seminario': [
+    'educacion_salud', 'gestion_salud', 'biomolecular', 'inmunohemo', 'bioq_clinica2',
+    'integrador1', 'med_transfusional', 'diag_molecular', 'pensamiento',
+    'salud_pub2', 'micro2', 'hemato2', 'bioq_clinica1'
+  ],
+
+  // ─────────────────────────────
+  //  SEMESTRE 10
+  // ─────────────────────────────
   'integrador2': [
-    'biocel', 'lab_biocel', 'quimica_general', 'anatomia', 'intro_tm', 'algebra',
-    'histoembriologia', 'fisica', 'quimica_organica', 'ingles1', 'habilidades',
-    'fisiologia', 'bioetica', 'bioquimica', 'infectologia', 'ingles2', 'tic',
-    'fisiopato', 'farmaco', 'parasito', 'inmuno_diag', 'ingles3',
-    'procedimientos', 'salud_pub1', 'micro1', 'hemato1', 'ingles4',
-    'salud_pub2', 'micro2', 'hemato2', 'bioq_clinica1', 'educacion_salud',
-    'gestion_salud', 'biomolecular', 'inmunohemo', 'bioq_clinica2', 'integrador1',
-    'investigacion', 'aseguramiento', 'med_transfusional', 'diag_molecular', 'pensamiento',
-    'responsabilidad', 'seminario'
+    'responsabilidad', 'seminario', 'integrador1'
   ]
 };
 
-// 
+
+// ======================================================
+//  FUNCIONES
+// ======================================================
+
 function obtenerAprobados() {
   const data = localStorage.getItem('mallaAprobados');
   return data ? JSON.parse(data) : [];
@@ -131,7 +121,7 @@ function guardarAprobados(aprobados) {
   localStorage.setItem('mallaAprobados', JSON.stringify(aprobados));
 }
 
-// 🚦 Desbloquear ramos según prerequisitos
+//  Desbloquear ramos según prerequisitos
 function actualizarDesbloqueos() {
   const aprobados = obtenerAprobados();
 
@@ -140,6 +130,7 @@ function actualizarDesbloqueos() {
     if (!elem) continue;
 
     const puedeDesbloquear = reqs.every(r => aprobados.includes(r));
+
     if (!elem.classList.contains('aprobado')) {
       if (puedeDesbloquear) elem.classList.remove('bloqueado');
       else elem.classList.add('bloqueado');
@@ -149,7 +140,7 @@ function actualizarDesbloqueos() {
   }
 }
 
-// ✔️ Aprobar o desaprobar
+// Marcar como aprobado
 function aprobar(e) {
   const ramo = e.currentTarget;
   if (ramo.classList.contains('bloqueado')) return;
@@ -163,11 +154,11 @@ function aprobar(e) {
     const idx = aprobados.indexOf(ramo.id);
     if (idx > -1) aprobados.splice(idx, 1);
   }
+
   guardarAprobados(aprobados);
   actualizarDesbloqueos();
 }
 
-// 
 window.addEventListener('DOMContentLoaded', () => {
   const todosRamos = document.querySelectorAll('.ramo');
   const aprobados = obtenerAprobados();
